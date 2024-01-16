@@ -1,0 +1,60 @@
+body{
+    background-image:linear-Gradient(180deg,#5eb3b6,#0f5096);
+    background-attachment: fixed;
+    color:rgb(0, 0, 0, 0.65);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+}
+    h3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+    border: #0f5096;
+    border-style: solid;
+    padding: 2vh;
+    border-width: 1.4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+button{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    width: fit-content;
+    background-color: rgb(9, 38, 40);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 14px;
+
+}
+
+button:hover{animation: shaking 0.1s infinite;}
+@keyframes shaking {
+        0% { transform: translate(0, 0) rotate(0deg); }
+        25% { transform: translate(5px, 5px) rotate(5deg); }
+        50% { transform: translate(0, 0) rotate(0eg); }
+        75% { transform: translate(-5px, 5px) rotate(-5deg); }
+        100% { transform: translate(0, 0) rotate(0deg); }
+      }
+
+button:active{animation: color 0.1s infinite;}
+@keyframes color {
+                0% { transform: translate(0, 0) rotate(0deg); color: white; }
+                25% { transform: translate(5px, 5px) rotate(5deg); color: rgb(0, 0, 0); }
+                50% { transform: translate(0, 0) rotate(0eg); color: white; }
+                75% { transform: translate(-5px, 5px) rotate(-5deg); color: rgb(0, 0, 0); }
+                100% { transform: translate(0, 0) rotate(0deg); color: white; }
+                }
+ 
+  
