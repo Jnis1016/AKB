@@ -1,0 +1,20 @@
+body{
+    background-image:linear-Gradient(180deg,#5eb3b6,#0f5096);
+    background-attachment: fixed;
+    color:rgb(0, 0, 0, 0.65);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+}
+    h3{
+    border: #0f5096;
+    border-style: solid;
+    padding: 2vh;
+    border-width: 1.4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
